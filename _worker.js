@@ -25,7 +25,7 @@ jobs:
       - name: Create worker directory
         run: |
           mkdir -p worker
-          cp "合集/合集.js" worker/index.js
+          cp "m3u/m3u.js" worker/index.js
 
       - name: Deploy to Cloudflare Workers
         env:
