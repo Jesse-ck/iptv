@@ -1,6 +1,6 @@
 name = "iptv"
 # main = "合集/合集.js"
-# main = "m3u/m3u.js"
+main = "m3u/m3u.js"
 compatibility_date = "2024-01-01"
 
 [vars]
